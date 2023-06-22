@@ -15,7 +15,7 @@ services:
   mongo:
     image: mongo:3-stretch
     ports:
-      - "27017:27017"
+      - "300000:300000"
     networks:
       - droplets_net
 
